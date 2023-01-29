@@ -79,7 +79,7 @@ const ItemShow = ({
 
   // set the content to be the list of items with the cross out button
   let content = (
-    <div className="flex gap-4">
+    <div className="flex gap-4 mb-4">
       <h3 className="font-semibold">{item.item}</h3>
       <div>
         <button onClick={handleCrossOut}>

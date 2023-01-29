@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ItemCreate from "./components/ItemCreate";
 import ItemList from "./components/ItemList";
+import Footer from "./components/Footer";
 import axios from "axios";
 
 const App = () => {
@@ -165,6 +166,7 @@ const App = () => {
         onToggleVivek={toggleVivek}
         onToggleKhadija={toggleKhadija}
       />
+      <Footer />
     </div>
   );
 };

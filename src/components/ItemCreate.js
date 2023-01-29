@@ -20,14 +20,14 @@ const ItemCreate = ({ onCreate }) => {
   // JSX to be returned
   return (
     <div className="py-10 px-5 h-14 bg-gradient-to-r from-violet-500 to-fuchsia-500 flex justify-between items-center ">
-      <form onSubmit={handleSubmit} className="flex items-center gap-3">
+      <form onSubmit={handleSubmit} className="flex items-center gap-3 ">
         <input
           type="text"
           name="name"
           placeholder="Add item..."
           value={input}
           onChange={handleChange}
-          className="p-1 border-2 border-blue-500 rounded-lg w-96 max-sm:w-32 max-sm:p-0"
+          className="p-1 border-2 border-blue-500 rounded-lg w-96 max-lg:w-64 max-sm:w-32 max-sm:p-0 "
         />
 
         <button className="bg-blue-500 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-6 rounded-lg max-sm:text-xs max-sm:py-1.5  max-sm:px-3">
