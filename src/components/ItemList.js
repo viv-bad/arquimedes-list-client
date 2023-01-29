@@ -30,7 +30,9 @@ const ItemList = ({
 
   return (
     <div>
-      <ul className="grid grid-cols-2 max-sm:gap-y-8">{listItems}</ul>
+      <ul className="grid grid-cols-2 max-sm:gap-y-14 max-sm:grid-cols-1 max-sm:justify-center">
+        {listItems}
+      </ul>
     </div>
   );
 };
